@@ -1,70 +1,15 @@
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    background-color: #333;
-    min-width: 580px;
+h2, h3 {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #1F1F6B;
 }
 
-#logo {
-    float: left;
-    padding: 0 10px 0 40px;
-    background-color: #333;
+.menu{
+    font-family: 'Sedgwick Ave', cursive;
+    background-color: #1F1F6B;
 }
 
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; */
-    
-}
-
-nav li{
-    float: right;
-}
-
-nav a{
-    display: block;
+.menu a{
     color: white;
-    text-align: center;
-    padding: 0px 16px;
-    text-decoration: none;
-    line-height: 100px;
-
-}
-
-nav li a:hover{
-    background-color: #000000
-}
-
-.submenu{
-    display: none;
-    position: absolute;
-    left: -100px;
-    top: 100px;
-    background: #333;
-    width: 400px;
-
-}
-
-.submenu ul{
-    color: white;
-    text-align: center;
-    padding: 0px 16px;
-    text-decoration: none;
-    line-height: 100px;
- }
- .submenu  li {
-     float: left;
- }
-
- #mistrabajos {
-     position: relative;
- }
-#mistrabajos:hover .submenu{
-    display: block;
 }
 
 .bloque p{
@@ -75,44 +20,10 @@ nav li a:hover{
 h1 {
     font-family: 'Sedgwick Ave', cursive;
     font-size: 46px;
-    text-align: center; 
-    line-height: 100px;
-    margin: 0;
-    padding: 0;
-    color: white;
-}
+    text-align: center;
 
-h2, h3 {
-    font-family: 'Sedgwick Ave', cursive;
-    color: #1F1F6B;
-    margin: 25px;
-}
-
-main {
-    margin-top: 100px;
 }
 
 h2 {
-    text-align: left;
-}
-
-.bloque p {
-    float: left;
-    margin: 25px;
-    width: 40%;
-}
-
-main img{
-    width: 250px;
-    padding: 0px 50px 50px 50px;
-}
-
-section{
-    padding-top:  25px;
-    padding-bottom: 25px;
-
-}
-
-#formcontacto input{
-    margin-bottom: 5px;
+    text-align: center;
 }
