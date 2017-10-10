@@ -1,0 +1,29 @@
+h2, h3 {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #1F1F6B;
+}
+
+.menu{
+    font-family: 'Sedgwick Ave', cursive;
+    background-color: #1F1F6B;
+}
+
+.menu a{
+    color: white;
+}
+
+.bloque p{
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 46px;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
