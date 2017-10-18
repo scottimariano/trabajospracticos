@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Scotti Web Design</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>Mi portfolio</h1>  
+        </div>
+        <nav class="menu">
+            <ul class="menu">
+                <li><a href="#contacto">Contacto</a></li>
+                <li id="mistrabajos"><a href="#mistrabajos">Mis trabajos</a>
+                    <ul class="submenu">
+                        <li><a href="#Proyecto1">Proyecto 1</a></li>      
+                        <li><a href="#Proyecto2">Proyecto 2</a></li>
+                        <li><a href="#Proyecto3">Proyecto 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bloque" id="aboutme">
+            <h2>MARIANO SCOTTI</h2>
+                <article>
+                    <h3>Diseñador WEB</h2>
+                    <div class="flex1">
+                        <p>Sed eget dolor elit. Nam ut est arcu. Duis id magna neque. Curabitur et mattis nulla. Vivamus dui lectus, faucibus et risus nec, faucibus egestas elit. Nunc non pellentesque urna. Maecenas condimentum et ligula in congue</p>
+                        <img src="https://image.freepik.com/vector-gratis/diseno-a-color-de-un-chico_1114-83.jpg" width="10%">    
+                    </div>    
+                </article>
+        </section>
+        <section class="bloque" id="mistrabajos">        
+            <h2>Mis Trabajos</h2>  
+                <div class="flex2">
+                    <h3>Proyecto 1</h3>
+                    <article id="proyecto1" class="proyectos">
+                        <img src="https://image.freepik.com/vector-gratis/coleccion-alambre-sketch_1019-111.jpg" alt="Imagen Proyecto 1" width="20%">
+                        <p>Morbi aliquam convallis ipsum id porta. Sed condimentum libero vel justo aliquet hendrerit. Sed euismod, sapien eget tincidunt porttitor, eros enim faucibus risus, sed volutpat tortor turpis at magna. Nam lacinia felis sit amet massa tempor euismod.</p>
+                        <a href="">Ver más</a>
+                    </article>
+                    <h3>Proyecto 2</h3>
+                    <article id="proyecto2" class="proyectos">
+                        <img src="https://image.freepik.com/vector-gratis/coleccion-de-disenos-de-we_1209-53.jpg" alt="Imagen Proyecto 1" width="20%">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+                        <a href="">Ver más</a>
+                    </article>
+                    <h3>Proyecto 3</h3>
+                    <article id="proyecto3" class="proyectos">
+                        <iframe width="280" height="157" src="https://www.youtube.com/embed/n0F6hSpxaFc?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+                        <video src="bearsdance.mp4" width="200px"></video>
+                        <a href="bearsdance.mp4" download>Descargar</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+                        <a href="">Ver más</a>
+                    </article>
+                </div>
+        </section>
+        <section class="bloque" id="contacto">
+            <h2>CONTACTO</h2>
+                <h3>Como contactarme</h3>
+                    <p> 11 5887 4495 <br>
+                    Mail. scottimariano@gmail.com</p>   
+            <form id="formcontacto">
+                <input type="text" name="nombre" placeholder="Nombre"><br>
+                <input type="mail" name="correo" placeholder="Correo Electrónico"><br>
+                <input type="text" name="mensaje" placeholder="Dejame tu mensaje"><br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    <aside class="sociallinks">
+        <a href="https://www.linkedin.com/in/mariano-scotti-86bbb712"><i class="ion-social-linkedin"></i></a> 
+        <a href="https://www.facebook.com/mariano.scotti.5"><i class="ion-social-facebook"></i></a>
+        <a href="https://www.facebook.com/mariano.scotti.5"><i class="ion-social-skype"></i></a>
+        <a href="https://www.facebook.com/mariano.scotti.5"><i class="ion-social-youtube"></i></a> 
+    </aside>
+    <footer>
+        <small>Mariano Scotti Web Design. Todos los derechos reservados</small>
+    </footer>
+</body>
+</html>

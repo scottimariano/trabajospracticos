@@ -1,0 +1,176 @@
+header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #333;
+    opacity: .95;
+}
+
+body{
+    margin: 0;
+}
+
+#logo {
+    float: left;
+    padding: 0 10px 0 40px;
+    background-color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    
+}
+
+nav li{
+    float: right;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    line-height: 100px;
+
+}
+
+nav li a:hover{
+    background-color: #000000
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    left: -100px;
+    top: 100px;
+    background: #333;
+    width: 400px;
+    opacity: .75;
+
+}
+
+.submenu ul{
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    line-height: 100px;
+ }
+
+ .submenu  li {
+     float: left;
+ }
+
+ #mistrabajos {
+     position: relative;
+ }
+
+#mistrabajos:hover .submenu{
+    display: block;
+}
+
+.bloque p{
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 18px;
+    float: left;
+    margin: 25px;
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 46px;
+    text-align: center; 
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h2, h3 {
+    font-family: 'Sedgwick Ave', cursive;
+    color: #1F1F6B;
+    margin: 25px;
+    text-align: center;
+}
+
+main {
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+main img{
+    width: 250px;
+    padding: 50px;
+}
+
+section{
+    padding-top:  25px;
+    padding-bottom: 25px;
+
+}
+
+#contacto{
+    background-color: #333
+}
+
+.sociallinks i{
+    font-size: 50px;
+    color: white;
+    margin: 25px;
+}
+
+#formcontacto input{
+    margin-bottom: 5px;
+}
+
+aside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333;
+    margin-left: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.proyectos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
